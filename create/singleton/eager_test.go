@@ -7,6 +7,7 @@ import (
 )
 
 // 饿汉式单例
+
 type Eager struct{}
 
 var eager *Eager

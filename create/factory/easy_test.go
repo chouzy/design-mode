@@ -6,6 +6,7 @@ import (
 )
 
 // 简单工厂
+
 type IParser interface {
 	Parse(data []byte)
 }

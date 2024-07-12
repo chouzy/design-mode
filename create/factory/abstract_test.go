@@ -6,6 +6,7 @@ import (
 )
 
 // 抽象工厂
+
 type IJson interface {
 	Parse(data []byte)
 }

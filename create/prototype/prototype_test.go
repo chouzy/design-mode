@@ -8,6 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// 原型模式
+
 type Keyword struct {
 	word      string
 	visit     int

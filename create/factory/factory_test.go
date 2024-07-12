@@ -6,6 +6,7 @@ import (
 )
 
 // 工厂方法
+
 type IRuleParserFactory interface {
 	CreateParser() IParser
 }

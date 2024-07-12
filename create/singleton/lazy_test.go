@@ -8,6 +8,7 @@ import (
 )
 
 // 懒汉式单例
+
 type Lazy struct{}
 
 var (

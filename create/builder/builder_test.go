@@ -8,6 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+// 建造者模式
+
 type configOpt struct {
 	maxTotal int
 	maxIdle  int
